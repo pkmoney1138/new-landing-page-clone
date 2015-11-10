@@ -1,0 +1,52 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+body {
+	background-color: LightGray;
+}
+div {
+	border: 1px solid Chocolate;
+}
+.header {
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	border-bottom: 1px solid #DDD;
+	z-index: 9999;
+}
+.content {
+	width: 60%;
+	height: 4.375rem;
+	padding: 0 0.938rem;
+	margin: 0 auto;
+	min-width: 37.5rem;
+}
+.logo {
+	height: 4.375rem;
+	width: 26px;
+
+}
+.links {
+	float: right;
+	color: #838994;
+	font-size: 1.04rem;
+	margin-top: 1.5rem;
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+.links li {
+	display: inline-block;
+	margin-left: 1.5rem;
+
+}
+.links .active {
+	color: #4c5058;
+	font-weight: 500;
+}
+.links li:hover {
+	cursor: pointer;
+	color: #333333;
+}
