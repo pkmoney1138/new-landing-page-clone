@@ -61,6 +61,7 @@ div {
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
+	overflow: auto;
 
 }
 .introduction h1 {
@@ -76,10 +77,15 @@ div {
 	text-align: center;
 	font-weight: 300;
 }
-.introduction .buttons {
+.buttons {
 	color: white;
 	text-align: center;
-	margin-top: 1.563rem;
+	
+}
+button:hover {
+	cursor: pointer;
+	background-color: #d9400e;
+	border-color: #cf3d0e;	
 }
 button {
 	width: 9.7rem;
@@ -92,3 +98,35 @@ button {
 	color: white;
 	font-size: 1.125rem;
 }
+/*bottom section*/
+.cases {
+	background-color: #fff;
+}
+.cases .content {
+	height: 28rem;
+	color: #1d1e21;
+	text-align: center;
+}
+.cases h2 {
+	font-size: 2.75rem;
+	margin-top: 7rem;
+	font-weight: 300;
+}
+.cases h3 {
+	font-weight: 400;
+	font-size: 1.5rem;
+	margin: 2.5rem 0px 1.875rem;
+}
+ .cases li {
+ 	width: 22%;
+	display: inline-block;
+	letter-spacing: 1px;
+}
+.devices {
+	margin: 0 auto;
+	letter-spacing: -4px;
+}
+
+
+
+
